@@ -33,19 +33,4 @@
 2. C:\OpenSSL-Win32\lib
 ````
 
-#### libthrift 添加文件
-````
-server/
-	TConnectedClient.cpp 
-	TConnectedClient.h 
-	TServer.h 
-	TServerFramework.cpp 
-	TServerFramework.h 
-	TSimpleServer.cpp
-	TSimpleServer.h
-	TThreadedServer.cpp
-	TThreadedServer.h 
-	TThreadPoolServer.cpp
-	TThreadPoolServer.h
-````
 ### 编译出lib文件
