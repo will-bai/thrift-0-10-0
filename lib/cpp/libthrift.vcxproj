@@ -50,6 +50,8 @@
     <ClCompile Include="src\thrift\protocol\TJSONProtocol.cpp" />
     <ClCompile Include="src\thrift\protocol\TProtocol.cpp" />
     <ClCompile Include="src\thrift\protocol\TMultiplexedProtocol.cpp" />
+    <ClCompile Include="src\thrift\server\TConnectedClient.cpp" />
+    <ClCompile Include="src\thrift\server\TServerFramework.cpp" />
     <ClCompile Include="src\thrift\server\TSimpleServer.cpp" />
     <ClCompile Include="src\thrift\server\TThreadPoolServer.cpp" />
     <ClCompile Include="src\thrift\server\TThreadedServer.cpp" />
@@ -90,7 +92,9 @@
     <ClInclude Include="src\thrift\protocol\TMultiplexedProtocol.h" />
     <ClInclude Include="src\thrift\protocol\TProtocol.h" />
     <ClInclude Include="src\thrift\protocol\TVirtualProtocol.h" />
+    <ClInclude Include="src\thrift\server\TConnectedClient.h" />
     <ClInclude Include="src\thrift\server\TServer.h" />
+    <ClInclude Include="src\thrift\server\TServerFramework.h" />
     <ClInclude Include="src\thrift\server\TSimpleServer.h" />
     <ClInclude Include="src\thrift\server\TThreadPoolServer.h" />
     <ClInclude Include="src\thrift\server\TThreadedServer.h" />
